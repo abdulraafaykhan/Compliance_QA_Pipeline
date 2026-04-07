@@ -13,6 +13,8 @@
 
 ## Architecture
 
+![Brand Guardian Architecture](https://raw.githubusercontent.com/abdulraafaykhan/Compliance_QA_Pipeline/refs/heads/main/assets/Project_Langgraph_Architecture.png)
+
 The system is built as a stateful graph where each node represents a specific stage of the audit process:
 
 1. **Indexer Node**: Downloads video and triggers Azure Video Indexer for metadata extraction.
@@ -97,6 +99,5 @@ uv run python main.py
 ├── main.py               # Entry point for the pipeline
 ├── pyproject.toml        # Dependency definitions
 └── .env.example          # Environment template
-
 
 
